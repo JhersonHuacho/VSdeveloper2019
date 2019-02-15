@@ -18,6 +18,18 @@ BEGIN
 	INSERT INTO Artist (Name) VALUES (@Name)
 	SELECT SCOPE_IDENTITY()
 END
+GO
+
+ALTER PROCEDURE usp_UpdateArtist
+(
+	@ArtistId INT,
+	@Name NVARCHAR(120)
+)
+AS
+BEGIN
+	UPDATE Artist SET Name = @Name WHERE ArtistId = @ArtistId
+	SELECT @@ROWCOUNT AS result
+END
 
 GO
 
@@ -54,6 +66,29 @@ BEGIN
 	SELECT SCOPE_IDENTITY()
 END
 
+GO
+
+ALTER PROCEDURE usp_UpdateGenre
+(
+	@GenreId INT,
+	@pNombre NVARCHAR(120)
+)
+AS
+BEGIN
+	UPDATE Genre SET Name = @pNombre WHERE GenreId = @GenreId
+	SELECT @@ROWCOUNT AS result
+END
+
+GO
+ALTER PROCEDURE usp_UpdateGenre_otraForma
+(
+	@GenreId INT,
+	@pNombre NVARCHAR(120)
+)
+AS
+BEGIN
+	UPDATE Genre SET [Name] = @pNombre WHERE GenreId = @GenreId
+END
 GO
 
 select * from Artist order by ArtistId desc
