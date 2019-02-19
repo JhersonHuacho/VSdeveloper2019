@@ -45,9 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumDapperDA.cs" />
     <Compile Include="ArtistDapperDA.cs" />
     <Compile Include="ArtistDA.cs" />
     <Compile Include="BaseConnection.cs" />
+    <Compile Include="CustomerDapperDA.cs" />
     <Compile Include="GenreDapperDA.cs" />
     <Compile Include="GenreDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

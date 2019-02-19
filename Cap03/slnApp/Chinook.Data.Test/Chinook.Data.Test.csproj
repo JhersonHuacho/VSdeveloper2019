@@ -49,8 +49,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumDapperDATest.cs" />
     <Compile Include="ArtistDapperDATest.cs" />
     <Compile Include="ArtistDATest.cs" />
+    <Compile Include="CustomerDapperDATest.cs" />
     <Compile Include="GenreDapperDATest.cs" />
     <Compile Include="GenreDATest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
