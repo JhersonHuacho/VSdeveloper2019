@@ -1,0 +1,14 @@
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\obj\Debug\App.EF.CodeFirst.csprojAssemblyReference.cache
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\obj\Debug\App.EF.CodeFirst.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\App.EF.CodeFirst.dll.config
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\App.EF.CodeFirst.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\App.EF.CodeFirst.pdb
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\App.EF.CodeFirst.Entities.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\EntityFramework.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\App.EF.CodeFirst.Entities.pdb
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\EntityFramework.xml
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\obj\Debug\App.EF.CodeFirst.csproj.CopyComplete
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\obj\Debug\App.EF.CodeFirst.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst\obj\Debug\App.EF.CodeFirst.pdb

@@ -14,3 +14,4 @@ C:\LabGitHub\VSdeveloper2019\Cap03\slnApp\Chinook.Entities\bin\Debug\Chinook.Ent
 C:\LabGitHub\VSdeveloper2019\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 C:\LabGitHub\VSdeveloper2019\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 C:\LabGitHub\VSdeveloper2019\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
+C:\LabGitHub\VSdeveloper2019\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache
