@@ -1,0 +1,16 @@
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.csprojAssemblyReference.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.dll.config
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Base.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\EntityFramework.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Base.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\EntityFramework.xml
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.csproj.CopyComplete
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.Interface.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.Interface.pdb

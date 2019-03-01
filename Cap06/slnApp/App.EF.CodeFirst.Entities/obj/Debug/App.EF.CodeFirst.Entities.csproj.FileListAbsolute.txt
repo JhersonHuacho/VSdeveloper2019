@@ -1,0 +1,10 @@
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.pdb
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.pdb

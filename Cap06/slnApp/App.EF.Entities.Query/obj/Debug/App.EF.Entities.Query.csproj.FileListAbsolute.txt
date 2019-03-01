@@ -1,0 +1,11 @@
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.Entities.Query\bin\Debug\App.EF.Entities.Query.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.Entities.Query\bin\Debug\App.EF.Entities.Query.pdb
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.dll
+C:\LabGitHub\VSdeveloper2019\Cap04\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.Entities.Query\bin\Debug\App.EF.Entities.Query.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.Entities.Query\bin\Debug\App.EF.Entities.Query.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.csprojAssemblyReference.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.pdb

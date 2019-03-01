@@ -1,0 +1,9 @@
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.pdb
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csprojAssemblyReference.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.dll
+C:\LabGitHub\VSdeveloper2019\Cap06\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.pdb
