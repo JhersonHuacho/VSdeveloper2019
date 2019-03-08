@@ -1,0 +1,12 @@
+C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.dll
+C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.pdb
+C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.csprojAssemblyReference.cache
+C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.csproj.CoreCompileInputs.cache
+C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.dll
+C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.pdb
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.dll
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.EF.CodeFirst.Entities\bin\Debug\App.EF.CodeFirst.Entities.pdb
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.csprojAssemblyReference.cache
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.csproj.CoreCompileInputs.cache
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.dll
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.EF.CodeFirst.Entities\obj\Debug\App.EF.CodeFirst.Entities.pdb

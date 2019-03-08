@@ -1,0 +1,14 @@
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Services.WCF.dll.config
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Services.WCF.dll
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Services.WCF.pdb
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Entities.Base.dll
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Entities.Queries.dll
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Services.WCF.Interfaces.dll
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Entities.Base.pdb
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Entities.Queries.pdb
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\bin\Debug\App.Services.WCF.Interfaces.pdb
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csprojAssemblyReference.cache
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csproj.CoreCompileInputs.cache
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csproj.CopyComplete
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.dll
+C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.pdb
