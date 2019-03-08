@@ -1,0 +1,6 @@
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+C:\vsdeveloper2017\LabGitHub\Cap06\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
