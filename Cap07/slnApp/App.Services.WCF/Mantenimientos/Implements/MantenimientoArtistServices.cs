@@ -14,10 +14,10 @@ namespace App.Services.WCF
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código y en el archivo de configuración a la vez.
     public partial class MantenimientoServices : IMantenimientoServices
     {
-        public IEnumerable<Artist> GetArtistAll()
+        public IEnumerable<Artist> GetArtistAll(string nombre)
         {
             IArtistDomain domain = new ArtistDomain();
-            return domain.GetArtists();
+            return domain.GetArtists(nombre);
         }
     }
 }

@@ -9,3 +9,8 @@ C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\bin\Debug\App.Ent
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb

@@ -7,3 +7,14 @@ C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain\obj\Debug\App.Domain.Interf
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain\obj\Debug\App.Domain.Interfaces.csproj.CopyComplete
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain\obj\Debug\App.Domain.Interfaces.dll
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain\obj\Debug\App.Domain.Interfaces.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\bin\Debug\App.Domain.Interfaces.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\bin\Debug\App.Domain.Interfaces.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\bin\Debug\App.Entities.Base.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\bin\Debug\App.Entities.Base.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csprojAssemblyReference.cache
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CoreCompileInputs.cache
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CopyComplete
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\bin\Debug\App.Entities.Queries.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Domain.Interfaces\bin\Debug\App.Entities.Queries.pdb

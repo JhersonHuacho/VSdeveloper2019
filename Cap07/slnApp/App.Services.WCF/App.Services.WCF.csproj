@@ -47,6 +47,8 @@
     <Compile Include="Mantenimientos\Implements\MantenimientoArtistServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mantenimientos\MantenimientoServices.cs" />
+    <Compile Include="Reportes\Implements\ReporteTrackServices.cs" />
+    <Compile Include="Reportes\ReporteServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

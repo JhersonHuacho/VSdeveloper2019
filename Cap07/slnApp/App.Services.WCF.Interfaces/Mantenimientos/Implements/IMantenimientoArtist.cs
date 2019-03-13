@@ -11,6 +11,6 @@ namespace App.Services.WCF.Interfaces
     public partial interface IMantenimientoServices
     {
         [OperationContract]
-        IEnumerable<Artist> GetArtistAll();
+        IEnumerable<Artist> GetArtistAll(string nombre);
     }
 }

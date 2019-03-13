@@ -9,3 +9,8 @@ C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\bin\Debug\App.Entiti
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
 C:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+D:\LabGitHub\VSdeveloper2019\Cap07\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
