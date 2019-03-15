@@ -1,0 +1,14 @@
+﻿using Colegio.Entities.Base;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Colegio.DataAcces.Repository.Interfaces
+{
+    public interface IAlumnoRepository : IGenericRepository<Alumno>
+    {
+        IEnumerable<Alumno> listarTodosLosAlumnos(string nombre);
+    }
+}
