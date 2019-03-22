@@ -61,6 +61,18 @@
       </wsdl:output>
     </wsdl:operation>
   </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IMantenimientoServices" type="tns:IMantenimientoServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetArtistAll">
+      <soap:operation soapAction="http://tempuri.org/IMantenimientoServices/GetArtistAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
   <wsdl:service name="MantenimientoServices">
     <wsdl:port name="NetTcpBinding_IMantenimientoServices" binding="tns:NetTcpBinding_IMantenimientoServices">
       <soap12:address location="net.tcp://s000-00:5050/MantenimientoServices.svc" />
@@ -70,6 +82,9 @@
           <Spn>host/S000-00</Spn>
         </Identity>
       </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IMantenimientoServices" binding="tns:BasicHttpBinding_IMantenimientoServices">
+      <soap:address location="http://localhost:5051/MantenimientoServices.svc" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
