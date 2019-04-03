@@ -19,5 +19,27 @@ namespace App.Services.WCF
             IArtistDomain domain = new ArtistDomain();
             return domain.GetArtists(nombre);
         }
+
+        public bool SaveArtist(Artist Entity)
+        {
+            var result = false;
+
+            try
+            {
+                IArtistDomain domain = new ArtistDomain();
+                result = domain.SaveArtist(Entity);
+            }
+            catch (Exception ex)
+            {
+                // se debera guardar el error en un log
+            }
+            return result;
+        }
+
+        public Artist GetArtist(int id)
+        {
+            IArtistDomain domain = new ArtistDomain();
+            return domain.Get(id);
+        }
     }
 }

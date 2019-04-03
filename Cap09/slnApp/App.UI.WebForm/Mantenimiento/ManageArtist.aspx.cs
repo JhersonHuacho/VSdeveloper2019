@@ -26,5 +26,15 @@ namespace App.UI.WebForm.Mantenimiento
             // enlazando los datos
             gvListado.DataBind();
         }
+
+        protected void btnNuevo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("NewArtist.aspx");
+        }
+
+        protected void btnActualizar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UpdateArtist.aspx");
+        }
     }
 }

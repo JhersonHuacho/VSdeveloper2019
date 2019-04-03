@@ -12,5 +12,11 @@ namespace App.Services.WCF.Interfaces
     {
         [OperationContract]
         IEnumerable<Artist> GetArtistAll(string nombre);
+
+        [OperationContract]
+        bool SaveArtist(Artist Entity);
+
+        [OperationContract]
+        Artist GetArtist(int id);
     }
 }

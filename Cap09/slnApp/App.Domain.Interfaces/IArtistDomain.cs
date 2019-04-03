@@ -10,5 +10,9 @@ namespace App.Domain.Interfaces
     public interface IArtistDomain
     {
         IEnumerable<Artist> GetArtists(string nombre);
+
+        bool SaveArtist(Artist Entity);
+
+        Artist Get(int id);
     }
 }

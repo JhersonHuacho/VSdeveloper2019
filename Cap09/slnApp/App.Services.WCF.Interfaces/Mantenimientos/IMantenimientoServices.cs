@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.Entities.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -11,7 +12,7 @@ namespace App.Services.WCF.Interfaces
     [ServiceContract]
     public partial interface IMantenimientoServices
     {
-
+        
     }
  
 }
