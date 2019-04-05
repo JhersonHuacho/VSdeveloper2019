@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+
+    List<string> artistDos = new List<string>();
+    artistDos.Add("Francisco");
+    artistDos.Add("Huacho");
+    artistDos.Add("Inga");
+}
+
+<h2>Lista de artistas enviado desde el controlador</h2>
+
+<ul>
+    @foreach (var item in ViewBag.ArtistList)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+<h2>Lista de artistas enviado desde la misma vista</h2>
+
+<ul>
+    @foreach (var item in artistDos)
+    {
+        <li>@item</li>
+    }
+</ul>
+

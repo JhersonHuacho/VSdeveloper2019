@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/App.Entities.Queries" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/App.Entities.Queries" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfTrackAll">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TrackAll" nillable="true" type="tns:TrackAll" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTrackAll" nillable="true" type="tns:ArrayOfTrackAll" />
+  <xs:complexType name="TrackAll">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlbumId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ArtistId" type="xs:int" />
+      <xs:element minOccurs="0" name="ArtistName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bytes" type="xs:int" />
+      <xs:element minOccurs="0" name="Composer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GenreId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GenreName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="MediaTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Milliseconds" type="xs:int" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrackId" type="xs:int" />
+      <xs:element minOccurs="0" name="TrackName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitPrice" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrackAll" nillable="true" type="tns:TrackAll" />
+</xs:schema>
