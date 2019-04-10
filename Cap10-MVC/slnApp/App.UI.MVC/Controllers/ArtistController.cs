@@ -10,6 +10,12 @@ namespace App.UI.MVC.Controllers
 {
     public class ArtistController : Controller
     {
+        MantenimientoServicesClient.MantenimientoServicesClient client = null;
+
+        public ArtistController()
+        {
+            client = new MantenimientoServicesClient.MantenimientoServicesClient();
+        }
         // GET: Artist
         public ActionResult Index()
         {
@@ -24,8 +30,7 @@ namespace App.UI.MVC.Controllers
         }
 
         public ActionResult Listado(string filtroByNombre)
-        {
-            var client = new MantenimientoServicesClient.MantenimientoServicesClient();
+        { 
             var listado = new List<Artist>();
 
             if (string.IsNullOrWhiteSpace(filtroByNombre))
@@ -59,76 +64,102 @@ namespace App.UI.MVC.Controllers
             return View(listado);
         }
 
-        // GET: Artist/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Edit(int id)
         {
-            return View();
+            Artist artist = client.GetArtist(id);
+            return View(artist);
         }
 
-        // GET: Artist/Create
+        [HttpPost]
+        public ActionResult Edit(Artist modelo)
+        {
+            bool artist = client.SaveArtist(modelo);
+            // Redireccionamos a la acción que muestra el listado de artistas
+            return RedirectToAction("Listado");
+        }
+
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Artist/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Artist modelo)
         {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            bool artist = client.SaveArtist(modelo);
+            return RedirectToAction("Listado");
         }
 
-        // GET: Artist/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
+        //// GET: Artist/Details/5
+        //public ActionResult Details(int id)
+        //{
+        //    return View();
+        //}
+
+        //// GET: Artist/Create
+        //public ActionResult Create()
+        //{
+        //    return View();
+        //}
+
+        //// POST: Artist/Create
+        //[HttpPost]
+        //public ActionResult Create(FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add insert logic here
+
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
+
+        //// GET: Artist/Edit/5
+        //public ActionResult Edit(int id)
+        //{
+        //    return View();
+        //}
 
         // POST: Artist/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
+        //[HttpPost]
+        //public ActionResult Edit(int id, FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add update logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
         // GET: Artist/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
+        //public ActionResult Delete(int id)
+        //{
+        //    return View();
+        //}
 
-        // POST: Artist/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
+        //// POST: Artist/Delete/5
+        //[HttpPost]
+        //public ActionResult Delete(int id, FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add delete logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
     }
 }

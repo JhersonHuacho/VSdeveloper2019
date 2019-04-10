@@ -26,5 +26,10 @@ namespace App.UI.MVC.Controllers
 
             return View();
         }
+
+        public ActionResult PruebaLayout()
+        {
+            return View();
+        }
     }
 }

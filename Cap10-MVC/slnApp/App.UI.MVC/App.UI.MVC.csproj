@@ -153,6 +153,26 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\template\css\bootstrap.css" />
+    <Content Include="Content\template\css\custom.css" />
+    <Content Include="Content\template\css\font-awesome.css" />
+    <Content Include="Content\template\font-awesome\fonts\fontawesome-webfontba72.svg" />
+    <Content Include="Content\template\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\template\img\1.png" />
+    <Content Include="Content\template\img\2.png" />
+    <Content Include="Content\template\img\3.png" />
+    <Content Include="Content\template\img\4.png" />
+    <Content Include="Content\template\img\find_user.png" />
+    <Content Include="Content\template\js\bootstrap.min.js" />
+    <Content Include="Content\template\js\custom.js" />
+    <Content Include="Content\template\js\dataTables\dataTables.bootstrap.css" />
+    <Content Include="Content\template\js\dataTables\dataTables.bootstrap.js" />
+    <Content Include="Content\template\js\dataTables\jquery.dataTables.js" />
+    <Content Include="Content\template\js\jquery-1.10.2.js" />
+    <Content Include="Content\template\js\jquery.metisMenu.js" />
+    <Content Include="Content\template\js\morris\morris-0.4.3.min.css" />
+    <Content Include="Content\template\js\morris\morris.js" />
+    <Content Include="Content\template\js\morris\raphael-2.1.0.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -170,6 +190,15 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="Properties\DataSources\App.Entities.Base.Artist.datasource" />
+    <Content Include="Content\template\font-awesome\fonts\fontawesome-webfontba72.eot" />
+    <Content Include="Content\template\font-awesome\fonts\fontawesome-webfontba72.ttf" />
+    <Content Include="Content\template\font-awesome\fonts\fontawesome-webfontba72.woff" />
+    <Content Include="Content\template\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Content\template\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\template\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\template\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\template\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Views\Home\PruebaLayout.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -181,7 +210,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -197,6 +228,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Artist\Index.cshtml" />
     <Content Include="Views\Artist\Listado.cshtml" />
+    <Content Include="Views\Shared\_LayoutMain.cshtml" />
+    <Content Include="Views\Artist\Edit.cshtml" />
+    <Content Include="Views\Artist\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
