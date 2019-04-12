@@ -133,8 +133,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\ReporteServicesTrack\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\ArtistController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TrackController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -146,6 +152,13 @@
     <None Include="Connected Services\MantenimientoServicesClient\configuration91.svcinfo" />
     <None Include="Connected Services\MantenimientoServicesClient\configuration.svcinfo" />
     <None Include="Connected Services\MantenimientoServicesClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\ReporteServicesTrack\ReporteServices.disco" />
+    <None Include="Connected Services\ReporteServicesTrack\configuration91.svcinfo" />
+    <None Include="Connected Services\ReporteServicesTrack\configuration.svcinfo" />
+    <None Include="Connected Services\ReporteServicesTrack\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -163,6 +176,7 @@
     <Content Include="Content\template\img\3.png" />
     <Content Include="Content\template\img\4.png" />
     <Content Include="Content\template\img\find_user.png" />
+    <Content Include="Content\template\img\loading.gif" />
     <Content Include="Content\template\js\bootstrap.min.js" />
     <Content Include="Content\template\js\custom.js" />
     <Content Include="Content\template\js\dataTables\dataTables.bootstrap.css" />
@@ -198,7 +212,20 @@
     <Content Include="Content\template\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\template\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\template\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Views\Home\PruebaLayout.cshtml" />
+    <Content Include="Properties\DataSources\App.Entities.Queries.TrackAll.datasource" />
+    <None Include="Connected Services\ReporteServicesTrack\ReporteServices.wsdl" />
+    <None Include="Connected Services\ReporteServicesTrack\ReporteServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReporteServicesTrack\ReporteServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReporteServicesTrack\ReporteServices2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -231,6 +258,9 @@
     <Content Include="Views\Shared\_LayoutMain.cshtml" />
     <Content Include="Views\Artist\Edit.cshtml" />
     <Content Include="Views\Artist\Create.cshtml" />
+    <Content Include="Views\Artist\ListadoResultado.cshtml" />
+    <Content Include="Views\Track\GetTrackAll.cshtml" />
+    <Content Include="Views\Track\GetTrackAllResultado.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -263,6 +293,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\MantenimientoServicesClient\" />
+    <WCFMetadataStorage Include="Connected Services\ReporteServicesTrack\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

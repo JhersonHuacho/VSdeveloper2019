@@ -90,6 +90,13 @@ namespace App.UI.MVC.Controllers
             return RedirectToAction("Listado");
         }
 
+        [HttpPost]
+        public ActionResult Buscar(string filtroByNombre)
+        {
+            var listado = client.GetArtistAll(filtroByNombre);
+            System.Threading.Thread.Sleep(5000);
+            return PartialView("ListadoResultado", listado);
+        }
         //// GET: Artist/Details/5
         //public ActionResult Details(int id)
         //{

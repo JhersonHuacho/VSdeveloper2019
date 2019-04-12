@@ -1,0 +1,38 @@
+﻿@model IEnumerable<App.Entities.Queries.TrackAll>
+
+<table class="table table-striped">
+    <tr>
+        <th>Código</th>
+        <th>Pista</th>
+        <th>Artista</th>
+        <th>Compositor</th>
+        <th>Título</th>
+        <th>Medio</th>
+        <th>Género</th>
+        <th>Precio</th>
+        <th>Milisegundos</th>
+        <th>bytes</th>
+        <th>Acción</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.TrackId</td>
+        <td>@item.TrackName</td>
+        <td>@item.ArtistName</td>
+        <td>@item.Composer</td>
+        <td>@item.Title</td>
+        <td>@item.MediaTypeName</td>
+        <td>@item.GenreName</td>
+        <td>@item.UnitPrice</td>
+        <td>@item.Milliseconds</td>
+        <td>@item.Bytes</td>
+        <td>
+            <a href="@Url.Action("Edit", new {id = item.TrackId})">
+                <i class="glyphicon glyphicon-pencil fa-1x"></i>
+            </a>
+        </td>
+    </tr>
+    }
+</table>
+

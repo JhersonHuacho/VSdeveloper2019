@@ -1,11 +1,18 @@
-﻿@model IEnumerable<App.Entities.Base.Artist>
-
-@{
+﻿@{
     ViewBag.Title = "Administración de Artistas";
     ViewBag.ViewDescription = "Página que permita la gestión de la información de artistas";
 }
 
-<form>
+@using (Ajax.BeginForm("Buscar", 
+    new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        UpdateTargetId = "resultadoId",
+        InsertionMode = InsertionMode.Replace,
+        LoadingElementId = "imgLoader"
+    }
+    ))
+{
     <h4>Nombre del artista:</h4>
     <input type="text" name="filtroByNombre" value="" class="form-control" placeholder="Búsqueda por nombre de artista" />
     <br />
@@ -13,23 +20,9 @@
 
     <a href="@Url.Action("Create")" class="btn btn-primary">Nuevo Artista</a>
     <hr />
-</form>
+}
 
-<table class="table">
-    <tr>
-        <th>Código</th>
-        <th>Nombre</th>
-    </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.ArtistId</td>
-            <td>@item.Name</td>
-            <td>
-                <a href="@Url.Action("Edit", new {id = item.ArtistId})">
-                    <i class="glyphicon glyphicon-pencil fa-1x"></i>
-                </a>
-            </td>
-        </tr>
-    }
-</table>
+<br />
+
+<div id="resultadoId">
+</div>

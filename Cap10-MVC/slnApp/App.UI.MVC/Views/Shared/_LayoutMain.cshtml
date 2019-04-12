@@ -42,10 +42,12 @@
                         <img src="~/Content/template/img/find_user.png" class="user-image img-responsive" />
                     </li>
                     <li>
-                        <a class="active-menu" href="@Url.Action("Listado","Artist")"><i class="fa fa-dashboard fa-3x"></i> Artista</a>
+                        <a class="active-menu" href="@Url.Action("Listado","Artist")">
+                            <i class="fa fa-dashboard fa-3x"></i> Artista
+                        </a>
                     </li>
                     <li>
-                        <a href="ui.html"><i class="fa fa-desktop fa-3x"></i> UI Elements</a>
+                        <a href="@Url.Action("GetTrackAll", "Track")"><i class="fa fa-desktop fa-3x"></i>Track</a>
                     </li>
                     <li>
                         <a href="tab-panel.html"><i class="fa fa-qrcode fa-3x"></i> Tabs & Panels</a>
@@ -100,11 +102,15 @@
         <div id="page-wrapper">
             <div id="page-inner">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-9">
                         <h2>@ViewBag.Title</h2>
                         <h5>@ViewBag.ViewDescription</h5>
                     </div>
+                    <div id="imgLoader" style="display:none; right: 7px;" class="col-md-3">
+                        <img src="~/Content/template/img/loading.gif" />
+                    </div>
                 </div>
+                
                 <!-- /. ROW  -->
                 <hr />
                 <div class="row render-body">
@@ -128,7 +134,8 @@
     <script src="~/Content/template/js/morris/morris.js"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="~/Content/template/js/custom.js"></script>
-
+    <!-- AJAX SCRIPTS -->
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
 </body>
 </html>
 

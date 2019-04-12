@@ -1,0 +1,21 @@
+﻿@model IEnumerable<App.Entities.Base.Artist>
+
+<table class="table">
+    <tr>
+        <th>Código</th>
+        <th>Nombre</th>
+        <th>Acción</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ArtistId</td>
+            <td>@item.Name</td>
+            <td>
+                <a href="@Url.Action("Edit", new {id = item.ArtistId})">
+                    <i class="glyphicon glyphicon-pencil fa-1x"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>

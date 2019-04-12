@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Administración de Pistas";
+    ViewBag.ViewDescription = "Página que permita la gestión de la información de Pistas";
+}
+
+@using (Ajax.BeginForm("BuscarTrack",
+    new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        UpdateTargetId = "resultadoId",
+        InsertionMode = InsertionMode.Replace,
+        LoadingElementId = "imgLoader"
+    }
+    ))
+{
+    <h4>Nombre de la Pista:</h4>
+    <input type="text" name="filtroByNombre" value="" class="form-control" placeholder="Búsqueda por pista" />
+    <br />
+    <button type="submit" class="btn btn-success">Buscar</button>
+
+    <a href="@Url.Action("Create")" class="btn btn-primary">Nuevo Track</a>
+    <hr />
+}
+
+<br />
+
+<div id="resultadoId">
+</div>
+
