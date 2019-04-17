@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace App.UI.MVC.Controllers
 {
+    [Authorize]
     public class TrackController : Controller
     {
         ReporteServicesTrack.ReporteServicesClient WcfClient = null;

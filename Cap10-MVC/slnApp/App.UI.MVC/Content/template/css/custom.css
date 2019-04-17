@@ -381,4 +381,21 @@ line-height: 1.428571429;
     padding-right: 1%;
 }
 
+.login {
+    width: 40%;
+    border-color: #f96359;
+    background-color: crimson;
+    left: 35%;
+    top: 34%;
+    position: absolute;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+.login-fondo {
+    background-color: #f8f9fa; 
+    width: 100%;
+    height: 100%;
+}
+
 

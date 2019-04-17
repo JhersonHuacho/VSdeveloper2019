@@ -34,6 +34,7 @@ namespace App.DataAccess.Repository
         public virtual DbSet<MediaType> MediaType { get; set; }
         public virtual DbSet<Playlist> Playlist { get; set; }
         public virtual DbSet<Track> Track { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

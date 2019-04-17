@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace App.UI.MVC.Controllers
 {
+    [Authorize]
     public class ArtistController : Controller
     {
         MantenimientoServicesClient.MantenimientoServicesClient client = null;

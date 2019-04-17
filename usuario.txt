@@ -1,0 +1,9 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [UsuarioID]
+      ,[Login]
+      ,[Password]
+      ,[Roles]
+      ,[Nombres]
+      ,[Apellidos]
+      ,[Email]
+  FROM [Chinook].[dbo].[Usuario]

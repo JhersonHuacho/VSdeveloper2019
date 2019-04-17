@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="IArtistDomain.cs" />
     <Compile Include="ITrackDomain.cs" />
+    <Compile Include="IUsuarioDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

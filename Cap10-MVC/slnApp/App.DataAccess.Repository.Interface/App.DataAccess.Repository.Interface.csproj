@@ -45,6 +45,7 @@
     <Compile Include="ITrackRepository.cs" />
     <Compile Include="IGenericRepository.cs" />
     <Compile Include="IArtistRepository.cs" />
+    <Compile Include="IUsuarioRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
