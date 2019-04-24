@@ -41,5 +41,11 @@ namespace App.Services.WCF
             IArtistDomain domain = new ArtistDomain();
             return domain.Get(id);
         }
+
+        public bool LoginUsuario(Usuario entity)
+        {
+            IUsuarioDomain domain = new UsuarioDomain();
+            return domain.LoginUsuario(entity);
+        }
     }
 }

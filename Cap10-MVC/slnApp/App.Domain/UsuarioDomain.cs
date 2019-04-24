@@ -13,14 +13,18 @@ namespace App.Domain
     {
         public bool LoginUsuario(Usuario Entity)
         {
-            var result = false;
+            int total;
+            bool result = false;
 
             try
             {
-                using (var uw = new AppUnitOfWork())
-                {                    
-                    result = uw.UsuarioRepository.LoginUsuario(Entity);
+                using (AppUnitOfWork uw = new AppUnitOfWork())
+                {
+                    //result = uw.ArtistRepository.GetAll();
+                    total = uw.UsuarioRepository.GetAll(item => item.Login.Contains(Entity.Login) && item.Password.Contains(Entity.Password)).Count();
                 }
+
+                result = total >= 1 ? true : false;
 
                 //result = true;
             }

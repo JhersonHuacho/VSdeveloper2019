@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.Entities.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -18,7 +19,7 @@ namespace App.UI.MVC.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public ActionResult Login(string usuario, string clave, string returnUrl)
+        public ActionResult Login(string usuario, string clave)
         {
             // Validar en base de datos
 
@@ -43,7 +44,24 @@ namespace App.UI.MVC.Controllers
             #endregion
 
             // 
-            return Redirect(returnUrl ?? "~/");
+            MantenimientoServicesClient.MantenimientoServicesClient client = null;
+            client = new MantenimientoServicesClient.MantenimientoServicesClient();
+
+            Usuario modelo = new Usuario()
+            {
+                Login = usuario,
+                Password = clave
+            };
+            var result = client.LoginUsuario(modelo);
+            if (result)
+            {
+                return Redirect("~/Artist/Index");
+            }
+            else
+            {
+                return Redirect("~/");
+            }
+
         }
     }
 }

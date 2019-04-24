@@ -32,6 +32,12 @@ namespace App.UI.MVC.MantenimientoServicesClient {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/GetArtist", ReplyAction="http://tempuri.org/IMantenimientoServices/GetArtistResponse")]
         System.Threading.Tasks.Task<App.Entities.Base.Artist> GetArtistAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/LoginUsuario", ReplyAction="http://tempuri.org/IMantenimientoServices/LoginUsuarioResponse")]
+        bool LoginUsuario(App.Entities.Base.Usuario Entity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/LoginUsuario", ReplyAction="http://tempuri.org/IMantenimientoServices/LoginUsuarioResponse")]
+        System.Threading.Tasks.Task<bool> LoginUsuarioAsync(App.Entities.Base.Usuario Entity);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -83,6 +89,14 @@ namespace App.UI.MVC.MantenimientoServicesClient {
         
         public System.Threading.Tasks.Task<App.Entities.Base.Artist> GetArtistAsync(int id) {
             return base.Channel.GetArtistAsync(id);
+        }
+        
+        public bool LoginUsuario(App.Entities.Base.Usuario Entity) {
+            return base.Channel.LoginUsuario(Entity);
+        }
+        
+        public System.Threading.Tasks.Task<bool> LoginUsuarioAsync(App.Entities.Base.Usuario Entity) {
+            return base.Channel.LoginUsuarioAsync(Entity);
         }
     }
 }

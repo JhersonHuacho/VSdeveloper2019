@@ -74,6 +74,147 @@ namespace App.Service.WCFAppTest.MantenimientoServices {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Usuario", Namespace="http://schemas.datacontract.org/2004/07/App.Entities.Base")]
+    [System.SerializableAttribute()]
+    public partial class Usuario : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ApellidosField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LoginField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NombresField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string PasswordField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RolesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int UsuarioIDField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Apellidos {
+            get {
+                return this.ApellidosField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ApellidosField, value) != true)) {
+                    this.ApellidosField = value;
+                    this.RaisePropertyChanged("Apellidos");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailField, value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Login {
+            get {
+                return this.LoginField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LoginField, value) != true)) {
+                    this.LoginField = value;
+                    this.RaisePropertyChanged("Login");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nombres {
+            get {
+                return this.NombresField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NombresField, value) != true)) {
+                    this.NombresField = value;
+                    this.RaisePropertyChanged("Nombres");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Password {
+            get {
+                return this.PasswordField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PasswordField, value) != true)) {
+                    this.PasswordField = value;
+                    this.RaisePropertyChanged("Password");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Roles {
+            get {
+                return this.RolesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RolesField, value) != true)) {
+                    this.RolesField = value;
+                    this.RaisePropertyChanged("Roles");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int UsuarioID {
+            get {
+                return this.UsuarioIDField;
+            }
+            set {
+                if ((this.UsuarioIDField.Equals(value) != true)) {
+                    this.UsuarioIDField = value;
+                    this.RaisePropertyChanged("UsuarioID");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MantenimientoServices.IMantenimientoServices")]
     public interface IMantenimientoServices {
@@ -83,6 +224,24 @@ namespace App.Service.WCFAppTest.MantenimientoServices {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/GetArtistAll", ReplyAction="http://tempuri.org/IMantenimientoServices/GetArtistAllResponse")]
         System.Threading.Tasks.Task<System.Collections.Generic.List<App.Service.WCFAppTest.MantenimientoServices.Artist>> GetArtistAllAsync(string nombre);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/SaveArtist", ReplyAction="http://tempuri.org/IMantenimientoServices/SaveArtistResponse")]
+        bool SaveArtist(App.Service.WCFAppTest.MantenimientoServices.Artist Entity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/SaveArtist", ReplyAction="http://tempuri.org/IMantenimientoServices/SaveArtistResponse")]
+        System.Threading.Tasks.Task<bool> SaveArtistAsync(App.Service.WCFAppTest.MantenimientoServices.Artist Entity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/GetArtist", ReplyAction="http://tempuri.org/IMantenimientoServices/GetArtistResponse")]
+        App.Service.WCFAppTest.MantenimientoServices.Artist GetArtist(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/GetArtist", ReplyAction="http://tempuri.org/IMantenimientoServices/GetArtistResponse")]
+        System.Threading.Tasks.Task<App.Service.WCFAppTest.MantenimientoServices.Artist> GetArtistAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/LoginUsuario", ReplyAction="http://tempuri.org/IMantenimientoServices/LoginUsuarioResponse")]
+        bool LoginUsuario(App.Service.WCFAppTest.MantenimientoServices.Usuario Entity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientoServices/LoginUsuario", ReplyAction="http://tempuri.org/IMantenimientoServices/LoginUsuarioResponse")]
+        System.Threading.Tasks.Task<bool> LoginUsuarioAsync(App.Service.WCFAppTest.MantenimientoServices.Usuario Entity);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -118,6 +277,30 @@ namespace App.Service.WCFAppTest.MantenimientoServices {
         
         public System.Threading.Tasks.Task<System.Collections.Generic.List<App.Service.WCFAppTest.MantenimientoServices.Artist>> GetArtistAllAsync(string nombre) {
             return base.Channel.GetArtistAllAsync(nombre);
+        }
+        
+        public bool SaveArtist(App.Service.WCFAppTest.MantenimientoServices.Artist Entity) {
+            return base.Channel.SaveArtist(Entity);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SaveArtistAsync(App.Service.WCFAppTest.MantenimientoServices.Artist Entity) {
+            return base.Channel.SaveArtistAsync(Entity);
+        }
+        
+        public App.Service.WCFAppTest.MantenimientoServices.Artist GetArtist(int id) {
+            return base.Channel.GetArtist(id);
+        }
+        
+        public System.Threading.Tasks.Task<App.Service.WCFAppTest.MantenimientoServices.Artist> GetArtistAsync(int id) {
+            return base.Channel.GetArtistAsync(id);
+        }
+        
+        public bool LoginUsuario(App.Service.WCFAppTest.MantenimientoServices.Usuario Entity) {
+            return base.Channel.LoginUsuario(Entity);
+        }
+        
+        public System.Threading.Tasks.Task<bool> LoginUsuarioAsync(App.Service.WCFAppTest.MantenimientoServices.Usuario Entity) {
+            return base.Channel.LoginUsuarioAsync(Entity);
         }
     }
 }

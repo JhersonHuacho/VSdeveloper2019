@@ -1,5 +1,6 @@
 ﻿using App.DataAccess.Repository.Interface;
 using App.Entities.Base;
+using App.Entities.Queries;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -22,17 +23,22 @@ namespace App.DataAccess.Repository
             bool result = false;
             IEnumerable<Usuario> resultList = null;
 
-            resultList = _context.Database.SqlQuery<Usuario>
-            ("usp_login_usuario @Login @Password",
+            var resultDos = _context.Database.SqlQuery<Usuario>
+            ("usp_login_usuario @Login, @Password",
              new SqlParameter("@Login", Entity.Login),
              new SqlParameter("@Password", Entity.Password)
-            ).ToList();
+            ).ToList().Count;
 
             if (resultList != null)
             {
                 result = true;
             }
             return result;
+        }
+
+        public bool LoginUsuarioDos(string login, string password)
+        {
+            return true;
         }
     }
 }

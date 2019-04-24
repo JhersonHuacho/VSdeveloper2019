@@ -23,5 +23,14 @@ namespace App.Service.WCFAppTest
 
             Assert.IsTrue(lista.Count > 0);
         }
+
+        [TestMethod]
+        public void pruebaLogin()
+        {
+            var client = new MantenimientoServices.MantenimientoServicesClient();
+            var lista = client.LoginUsuario("a");
+
+            Assert.IsTrue(lista.Count > 0);
+        }
     }
 }

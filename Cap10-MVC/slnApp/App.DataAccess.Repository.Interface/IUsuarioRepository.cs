@@ -10,5 +10,6 @@ namespace App.DataAccess.Repository.Interface
     public interface IUsuarioRepository : IGenericRepository<Usuario>
     {
         bool LoginUsuario(Usuario Entity);
+        bool LoginUsuarioDos(string login, string password);
     }
 }

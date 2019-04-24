@@ -13,4 +13,16 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="Artist" nillable="true" type="tns:Artist" />
+  <xs:complexType name="Usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellidos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Roles" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UsuarioID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Usuario" nillable="true" type="tns:Usuario" />
 </xs:schema>
