@@ -9,6 +9,7 @@ using System.Web.Mvc;
 namespace App.UI.MVC.Controllers
 {
     [Authorize]
+    //[Authorize]
     public class ArtistController : Controller
     {
         MantenimientoServicesClient.MantenimientoServicesClient client = null;
@@ -17,7 +18,7 @@ namespace App.UI.MVC.Controllers
         {
             client = new MantenimientoServicesClient.MantenimientoServicesClient();
         }
-        // GET: Artist
+
         public ActionResult Index()
         {
             List<string> artist = new List<string>();
@@ -30,6 +31,7 @@ namespace App.UI.MVC.Controllers
             return View();
         }
 
+        [Authorize(Roles = "supervisor,admin")]
         public ActionResult Listado(string filtroByNombre)
         { 
             var listado = new List<Artist>();

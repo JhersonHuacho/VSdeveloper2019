@@ -1,0 +1,23 @@
+autenticación y roles
+
+https://www.redhat.com/es/topics/middleware/what-is-middleware
+https://azure.microsoft.com/es-es/overview/what-is-middleware/
+
+https://go.microsoft.com/fwlink/?LinkID=316888
+https://books.google.com.pe/books?id=tYMjDAAAQBAJ&pg=PT124&lpg=PT124&dq=ya+no+se+usa+owin+UseCookieAuthentication&source=bl&ots=8h0CRD6VQ3&sig=ACfU3U0XBMDPxq_P4X8ywrFqN3FMNT85tg&hl=es-419&sa=X&ved=2ahUKEwjul5nS2ezhAhVSzlkKHWpzCtIQ6AEwCHoECAgQAQ#v=onepage&q=ya%20no%20se%20usa%20owin%20UseCookieAuthentication&f=false
+https://programacion.net/articulo/autenticacion_con_facebook_utilizando_owin_katana_1257
+
+
+programación del lado del cliente
+
+http://bibliotecaprofesional.com/el-motor-de-ajax/
+http://www.programandoconrupert.com/la-razon-de-ajax-ajax-parte-i/
+https://www.digitallearning.es/blog/que-es-ajax/
+https://medium.com/laboratoria-how-to/entendiendo-como-funciona-el-internet-parte-ajax-c993f9802e72
+https://www.deustoformacion.com/blog/programacion-diseno-web/que-es-para-que-sirve-ajax
+https://webdesign.tutsplus.com/es/tutorials/an-introduction-to-ajax-for-front-end-designers--cms-25099
+
+
+https://www.miguelra.com/que-pasa-cuando-te-conectas-a-una-web/
+https://www.miguelra.com/como-funciona-el-protocolo-http/
+https://www.miguelra.com/como-funciona-ajax/

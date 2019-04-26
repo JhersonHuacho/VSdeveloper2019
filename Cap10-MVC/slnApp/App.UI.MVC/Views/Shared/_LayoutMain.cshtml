@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using App.UI.MVC.Common;
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -31,7 +33,7 @@
                  padding: 15px 50px 5px 50px;
                  float: right;
                  font-size: 16px;">
-                Last access : 30 May 2014 &nbsp;<a href="#" class="btn btn-danger square-btn-adjust">Logout</a>
+                @SecurityHelpers.GetUserFullName() &nbsp; access : 30 May 2014 &nbsp;<a href="@Url.Action("SignOut","Security")" class="btn btn-danger square-btn-adjust">Logout</a>
             </div>
         </nav>
         <!-- /. NAV TOP  -->
@@ -41,11 +43,14 @@
                     <li class="text-center">
                         <img src="~/Content/template/img/find_user.png" class="user-image img-responsive" />
                     </li>
-                    <li>
-                        <a class="active-menu" href="@Url.Action("Listado","Artist")">
-                            <i class="fa fa-dashboard fa-3x"></i> Artista
-                        </a>
-                    </li>
+                    @if(SecurityHelpers.IsAdmin() || SecurityHelpers.IsSupervisor())
+                    { 
+                        <li>
+                            <a class="active-menu" href="@Url.Action("Listado","Artist")">
+                                <i class="fa fa-dashboard fa-3x"></i> Artista
+                            </a>
+                        </li>
+                    }
                     <li>
                         <a href="@Url.Action("GetTrackAll", "Track")"><i class="fa fa-desktop fa-3x"></i>Track</a>
                     </li>
