@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../template/js/jquery-1.10.2.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .head {
+            background-color: cadetblue;
+            margin-bottom: 10px;
+        }
+        .head > h2 {
+            margin: 0;
+            padding: 10px;
+        }
+        .form {
+            display: inline-block;
+        }
+        .panel {
+            display: inline-block;
+        }
+        .section {
+            margin-left: 50px;
+            margin-right: auto;
+        }
+        .numero, .numeroThis {
+            padding: 15px;
+            font-size: 24px;
+        }
+        .limpiar {
+            width: 100%;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h2>Jquery</h2>
+    </div>
+    <div class="section">
+        <div class="form">
+            <form action="/" method="post">
+                <select id="lenguajes">
+                    <option value="VB">Visual Basic</option>
+                    <option value="CSharp">C#</option>
+                    <option value="Java">Java</option>
+                </select>
+                <br />
+                <input id="email" type="email" name="name" value="" placeholder="Ingresar su email" />
+                <br />
+                <input id="fechaNac" type="date" name="name" value="" placeholder="Ingresa su fecha de nacimiento" />
+                <br />
+                <input id="nombres" type="text" name="name" value="" placeholder="Ingresar sus nombres" />
+                <br />
+                <input id="apellidos" type="text" name="name" value="" placeholder="Ingresar sus apellidos" />
+                <br />
+                <span>Género: </span>
+                <div>
+                    <label for="optM">Másculino</label>
+                    <input id="optM" type="radio" name="genero" value="M" />
+                </div>
+                <div>
+                    <label for="optF">Femenino</label>
+                    <input id="optF" type="radio" name="genero" value="F" />
+                </div>
+                
+
+                <span>Disponibilidad</span>
+                <div>
+                    <label for="chkL">Lunes</label>
+                    <input id="chkL" type="checkbox" name="disponible" value="L" />
+                </div>
+                <div>
+                    <label for="chkM">Martes</label>
+                    <input id="chkM" type="checkbox" name="disponible" value="M" />
+                </div>
+                <div>
+                    <label for="chkMI">Miercoles</label>
+                    <input id="chkMI" type="checkbox" name="disponible" value="L" />
+                </div>
+                <button id="btnGuardar" type="button">Guardar</button>
+            </form>
+        </div>
+        <div class="panel">
+            <textarea id="panel" rows="15" cols="80" name="" form="">...</textarea>
+        </div>
+    </div>
+    <hr />
+    <h3>Con This</h3>
+    <div class="ejercicio">
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                        <div><button class="numeroThis" value="1">1</button></div>
+                        <div><button class="numeroThis" value="2">2</button></div>
+                        <div><button class="numeroThis" value="3">3</button></div>
+                    </td>
+                    <td>
+                        <div><button class="numeroThis" value="4">4</button></div>
+                        <div><button class="numeroThis" value="5">5</button></div>
+                        <div><button class="numeroThis" value="6">6</button></div>
+                    <td>
+                        <div><button class="numeroThis" value="7">7</button></div>
+                        <div><button class="numeroThis" value="8">8</button></div>
+                        <div><button class="numeroThis" value="9">9</button></div>
+                    </td>
+                    <td>
+                        <input id="textoResultThis" type="password" name="name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div><button class="limpiar">Limpiar</button></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr />
+    <h3>Sin This</h3>
+    <div class="ejercicio">
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                        <div><button class="numero" value="1" onclick="mostrar(1);">1</button></div>
+                        <div><button class="numero" value="2" onclick="mostrar(2);">2</button></div>
+                        <div><button class="numero" value="3" onclick="mostrar(3);">3</button></div>
+                    </td>
+                    <td>
+                        <div><button class="numero" value="4" onclick="mostrar(4);">4</button></div>
+                        <div><button class="numero" value="5" onclick="mostrar(5);">5</button></div>
+                        <div><button class="numero" value="6" onclick="mostrar(6);">6</button></div>
+                    </td>
+                    <td>
+                        <div><button class="numero" value="7" onclick="mostrar(7);">7</button></div>
+                        <div><button class="numero" value="8" onclick="mostrar(8);">8</button></div>
+                        <div><button class="numero" value="9" onclick="mostrar(9);">9</button></div>
+                    </td>
+                    <td>
+                        <input id="textoResult" type="text" name="name" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        $(document).ready(configInit);
+
+        function configInit() {
+            $("#btnGuardar").on("click", guardar);
+            $(".numeroThis").on("click", mostrarConThis);
+            $(".limpiar").on("click", limpiarTexto);
+            //var total = 9;
+            //for (var i = 1; i < total; i++) {
+            //    $("#"+i).on("click", LlenarTexto);
+            //}
+        }
+
+        function guardar() {
+            var candidato = {};
+            candidato.languaje = $("#lenguajes").val();
+            candidato.email = $("#email").val();
+            candidato.fechaNac = $("#fechaNac").val();
+            candidato.nombres = $("#nombres").val();
+            candidato.apellidos = $("#apellidos").val();
+            candidato.genero = $("input:radio[name=genero]:checked").val();
+
+            var arrDis = [];
+            var elementDisponibles = $("input:checkbox[name=disponible]:checked");
+            for (var i = 0; i < elementDisponibles.length; i++) {
+                arrDis.push($(elementDisponibles[i]).val());
+            }
+            candidato.disponibilidad = arrDis;
+
+            var panel = document.getElementById("panel");
+            panel.innerText = JSON.stringify(candidato);
+        }
+
+        function mostrar(num) {
+            var textoResult = document.getElementById("textoResult");
+            var botones = $(".numero");
+
+            for (var i = 0; i < botones.length; i++) {
+                if (num == $(botones[i]).val()) {
+                    if (textoResult.value == "") {
+                        textoResult.value = $(botones[i]).val();
+                    } else {
+                        textoResult.value = textoResult.value + " " + $(botones[i]).val();
+                    }
+                }
+            }
+        }
+
+        function mostrarConThis() {
+            var valor = $(this).val();
+            var claveDig = $("#textoResultThis").val();
+            $("#textoResultThis").val(claveDig + valor);
+        }
+
+        function limpiarTexto() {
+            $("#textoResultThis").val("");
+        }
+    </script>
+</body>
+</html>

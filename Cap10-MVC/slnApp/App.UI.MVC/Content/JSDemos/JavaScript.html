@@ -7,6 +7,12 @@
 <body>
     <button type="button" onclick="mostrarTotal();">Click aqui</button>
     <button type="button" onclick="Agregar();">Agregar</button>
+    <button type="button" onclick="Remover();">Remover</button>
+    <br />
+    <input onkeypress="onkeyPressFunction(event)" placeholder="Precione la tecla ENTER" />
+    <br />
+    <input onkeyup="onKeyUpFunction(event)" placeholder="Precione la tecla Ctrl+V" />
+
     <script type="text/javascript">
         // palabra clave en javascript que permite depurar el código
         debugger;
@@ -34,9 +40,30 @@
         function mostrarTotal() {
             alert("El monto total es: " + total);
         }
+
         function Agregar() {
             carrito.push(producto);
             alert("Cantidad de registros " + carrito.length);
+
+            for (var i = 0; i < carrito.length; i++) {
+                alert(carrito[i].nombre);
+            }
+        }
+
+        function Remover() {
+            carrito.splice(0, 1);
+        }
+
+        function onkeyPressFunction(e) {
+            if (e.keyCode == 13 || e.which == 13) {
+                alert("Presionó la tecla enter");
+            }
+        }
+
+        function onKeyUpFunction(e) {
+            if (e.ctrlKey && e.keyCode == 86) {
+                alert("Presionó las teclas Ctrl+V");
+            }
         }
     </script>
 </body>
