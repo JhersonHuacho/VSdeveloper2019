@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mantenimientos\Implements\IMantenimientoCustomer.cs" />
     <Compile Include="Mantenimientos\Implements\IMantenimientoArtist.cs" />
     <Compile Include="Mantenimientos\IMantenimientoServices.cs" />
     <Compile Include="Mantenimientos\Implements\IMantenimientoUsuario.cs" />

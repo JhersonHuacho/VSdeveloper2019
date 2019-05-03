@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "VenderTrack";
+}
+
+<h2>VenderTrack</h2>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Información general de la venta</div>
+    <div class="panel-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="cliente" class="col-md-2 control-label">Cliente</label>
+                        <div class="col-md-10">
+                            <select id="cliente" class="form-control" style="width:70%;">
+                                <option value="value">--Seleccionar--</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="cliente" class="col-md-2 control-label">Fecha</label>
+                        <div class="col-md-10">
+                            <span class="label label-success" style="font-size: 16px;">02/05/2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group form-horizontal">
+                        <div class="form-group">
+                            <label for="direccion" class="col-md-2 control-label">Dirección</label>
+                            <div class="col-md-10">
+                                <input id="direccion" type="text" class="form-control" placeholder="Ingresar dirección del cliente" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="ciudad" class="col-md-2 control-label">Ciudad:</label>
+                        <div class="col-md-10">
+                            <input id="ciudad" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="estado" class="col-md-2 control-label">Estado:</label>
+                        <div class="col-md-10">
+                            <input id="estado" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="pais" class="col-md-2 control-label">País:</label>
+                        <div class="col-md-10">
+                            <input id="pais" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="postal" class="col-md-2 control-label">Código:</label>
+                        <div class="col-md-10">
+                            <input id="postal" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-primary">
+    <div class="panel-heading">Detalle de la venta</div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group form-horizontal" style="">
+                    <div class="form-group">
+                        <label for="direccion" class="col-md-2 control-label" >Dirección</label>
+                        <div class="col-md-10">
+                            <input id="direccion" type="text" class="form-control" placeholder="Ingresar dirección del cliente" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="precio" class="col-md-2 control-label">Precio:</label>
+                        <div class="col-md-10">
+                            <input id="precio" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-horizontal">
+                        <label for="cantidad" class="col-md-2 control-label">Cantidad:</label>
+                        <div class="col-md-10">
+                            <input id="cantidad" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-success">Agregar</button>
+        </div>
+    </div>
+</div>

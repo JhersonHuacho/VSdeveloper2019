@@ -30,5 +30,11 @@ namespace App.UI.MVC.Controllers
             List<TrackAll> listTrack = WcfClient.GetTrackAll(filtroByNombre);
             return PartialView("GetTrackAllResultado", listTrack);
         }
+
+        public ActionResult VenderTrack()
+        {
+            //var customers = WcfClient.GetTrackAll();
+            return View();
+        }
     }
 }

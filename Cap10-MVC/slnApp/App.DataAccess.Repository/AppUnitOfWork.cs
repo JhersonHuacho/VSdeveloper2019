@@ -30,12 +30,14 @@ namespace App.DataAccess.Repository
             this.ArtistRepository = new ArtistRepository(_context);
             this.TrackRepository = new TrackRepository(_context);
             this.UsuarioRepository = new UsuarioRepository(_context);
+            this.CustomerRepository = new CustomerRepository(_context);
         }
 
 
         public IArtistRepository ArtistRepository { get ; set ; }
         public ITrackRepository TrackRepository { get; set; }
         public IUsuarioRepository UsuarioRepository { get; set; }
+        public ICustomerRepository CustomerRepository { get; set; }
 
         public int Complete()
         {
